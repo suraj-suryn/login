@@ -1,0 +1,60 @@
+.menu{
+  overflow: hidden;
+  background-color: #333;
+}
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+ a.link{
+    margin-left:35%;
+ }
+a.link:link {
+  color: red;
+}
+a.link:visited {
+  color: seagreen;
+}
+a.link:hover {
+  color: hotpink;
+}
+a.link:active {
+  color: blue;
+}
+.menu a#A{
+   float: right;
+}
+#portal{
+	text-align:center;
+	font-size:350%;
+	margin:0 0 0 0;
+}
+#header{
+	background-color:powderblue;
+	background-repeat:no-repeat;
+	background-position:cover;
+	padding:5px 0 15px 0;
+}
+h2{
+	float:right;
+}
+@media screen and(max-width: 320px) {
+    .rlform .rlform-wrapper {
+        width: 100%;
+    }
+    .rlform .rlform-box {
+        padding: 0 10px;
+    }
+}
